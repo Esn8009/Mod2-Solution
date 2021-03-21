@@ -1,4 +1,116 @@
+* {
+	box-sizing: border-box;
+
+}
+
 body{
 	margin: 0;
 	padding: 0;
+	height: 1000px;
+
+	
+
 }
+
+div.head{
+	font-family: tahoma;
+	font-size: 175%;
+	text-align: center;
+	margin: 10%;o
+	
+}
+
+div[class=row-1] div ,p[id] {
+
+	border: 2px solid black;
+	border-radius: 7px;
+	font-family:tahoma;
+	background-color:rgb(245,245,245);
+}
+
+p[id] {
+	float: right;
+	text-align:center;
+	padding:1%;
+	width:70%;
+	font-size:125%;
+}
+p#t-l-s{
+	background-color: rgb(228,78,4,.6);
+}
+
+p#t-c-s{
+	background-color: rgb(32,120,250,0.6);
+}
+
+p#t-r-s{
+	background-color: rgb(244,219,38,0.6);
+}
+
+p{
+	clear:both;
+}
+
+/***************** Large devices *****************/
+@media (min-width: 992px){
+ 	div.left-sec, div.center-sec, div.right-sec{
+ 		float:left;
+ 		width:23%;
+ 		padding: 1%;
+		
+ 	}
+
+	div.left-sec{
+		margin:0 2.5% 0 10%;
+	}
+	div.center-sec{
+		margin:0 2.5% 0 2.5%;
+
+	}
+	div.right-sec{
+		margin:0 10% 0 2.5%;
+
+	}
+
+}
+/***************** Medium devices ****************/
+@media (min-width: 768px) and (max-width: 991px){
+ 	
+	div.left-sec{
+		float:left;
+		width:37%;
+		margin:0 2.5% 2.5% 10%;
+		padding: 1%;
+	}
+	div.center-sec{
+		float:left;
+		width:37%;
+		margin:0 10% 2.5% 2.5%;
+		padding: 1%;
+
+	}
+	div.right-sec{
+		float:left;
+		width:80%;
+		margin:2.5% 10% 0 10%;
+		padding: 1% 10%;
+
+	}
+
+}
+/***************** Small devices *****************/
+@media (max-width: 767px){
+	div.left-sec, div.center-sec, div.right-sec{
+ 		float:left;
+		width: 80%;
+ 		padding: 1%;
+		margin:1% 10%;
+		padding: 1% 10%;
+	}
+}
+
+
+
+
+
+ 
