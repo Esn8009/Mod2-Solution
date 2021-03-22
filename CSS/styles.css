@@ -19,13 +19,24 @@ div.head{
 div[class=row-1] div ,p[id] {
 
 	border: 2px solid black;
-	border-radius: 7px;
+	border-radius: 4px;
 	font-family:tahoma;
 	background-color:rgb(245,245,245);
 }
+div[class=row-1] div{
+	position: relative;
+
+}
+p{
+	margin:15% 10%;
+}
 
 p[id] {
-	float: right;
+	
+	position: absolute;
+	top:-2px;
+	right: -2px;
+	margin:0 0 0 0;
 	text-align:center;
 	padding:1%;
 	width:70%;
@@ -34,6 +45,7 @@ p[id] {
 
 p#t-l-s{
 	background-color: rgb(228,78,4,.6);
+
 }
 
 p#t-c-s{
@@ -44,9 +56,7 @@ p#t-r-s{
 	background-color: rgb(244,219,38,0.6);
 }
 
-p{
-	clear:both;
-}
+
 
 /***************** Large devices *****************/
 @media (min-width: 992px){
