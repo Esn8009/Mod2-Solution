@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-
 }
 
 body{
@@ -10,25 +9,26 @@ body{
 }
 
 div.head{
-	font-family: tahoma;
+	font-family: Tahoma, serif;
 	font-size: 175%;
 	text-align: center;
-	margin: 10%;o	
+	margin: 10%;	
 }
 
 div[class=row-1] div ,p[id] {
 
 	border: 2px solid black;
 	border-radius: 4px;
-	font-family:tahoma;
+	font-family: Tahoma, serif;
 	background-color:rgb(245,245,245);
 }
 div[class=row-1] div{
 	position: relative;
 
+
 }
 p{
-	margin:15% 10%;
+	margin:20% 10%;
 }
 
 p[id] {
@@ -100,12 +100,11 @@ p#t-r-s{
 	}
 }
 /***************** Small devices *****************/
-@media (max-width: 767px){
-	div.left-sec, div.center-sec, div.right-sec{
- 		float:left;
-		width: 80%;
- 		padding: 1%;
-		margin:1% 10%;
+@media (max-width: 767px) {
+	div.left-sec,div.center-sec,div.right-sec{
+ 		position: left;
+		width: 80% ;
+		margin: 1% 10%;
 		padding: 1% 10%;
 	}
 }
